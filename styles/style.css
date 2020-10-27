@@ -1,0 +1,133 @@
+*,html{
+    font-family: "open-sans", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #282828;
+    color: #f5f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+/* .social .up{
+    justify-content: right;
+    align-items: center; 
+}*/
+
+header{
+    background-image: url(../assets/bg.png);
+    height: 100vmin;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .container{
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.left-side{
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    width: 25rem;
+    /* background-color: red; */
+    align-items: center;
+}
+.right-side{
+    height: 100%;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    /* background-color: green; */
+}
+/* .box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 3rem 3rem;
+} */
+/* ul.color{
+    color: #f5f4f4; */
+
+/* .social{
+    justify-content: right;
+} */
+.col-md-6 .pic .image img{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.col-md-6 .txt{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+.text-contentzz{
+    display: flex;
+    /* background-color: green; */
+    height: 100%;
+    align-items: center;
+    
+}
+
+#gallery{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+#gallery.col-md-4{
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+#gallery .col-md-4 img{
+    width: 100%; 
+    height: 20rem;
+    border: 2px solid green;
+}
+
+.txt-size{
+    font-size: 1.130rem;
+}
+.form-control{
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.btn{
+    border-radius: 0;
+}
+.contact-wrapper{
+    margin-top: 1rem;
+}
+h1{
+    font-weight: bold;
+}
+.top{
+    list-style: none;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    padding-left: 1rem;
+    color: #f5f4f4;
+    list-style: none;
+}
+/* .display{
+    align-items: flex-end;
+} */
